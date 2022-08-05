@@ -57,3 +57,13 @@ FROM employees AS e
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
+
+-- show how many mentors per title are avaiable 
+SELECT COUNT(me.title),
+	me.title
+INTO mentor_count
+FROM mentorship_eligibility AS me
+GROUP BY me.title
+ORDER BY COUNT DESC;
+
+SELECT * FROM mentor_count;
