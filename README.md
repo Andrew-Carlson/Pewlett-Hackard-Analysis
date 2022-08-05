@@ -11,12 +11,15 @@ For this analysis, the following business questions will be addressed:
 Only top ten rows displayed.
 ![Retirement Titles](./Analysis%20Projects%20Folder/Pewlett-Hackard%20Analysis%20Folder/retirement_titles.png)
 <br/>
+
 * The table above contained some duplicate employees because some employees had changed titles over time within the company. The table below has the past titles of employees removed to only show one (current) title per employee. Only top ten rows displayed.
 ![Unique Titles](./Analysis%20Projects%20Folder/Pewlett-Hackard%20Analysis%20Folder/unique_titles.png)
 <br/>
+
 * Below is the count of the employees per title retiring, which gives insight into the types of job openings the company will soon have. Whole table shown. <br/>
 ![Retiring Titles](./Analysis%20Projects%20Folder/Pewlett-Hackard%20Analysis%20Folder/retiring_titles.png)
 <br/>
+
 * Below is a table showing the employees that are eligible for the company's mentorship program. The criteria is that the employee must be born in the year 1965. Only top ten rows displayed.
 ![Mentorship Eligibility](./Analysis%20Projects%20Folder/Pewlett-Hackard%20Analysis%20Folder/mentorship_eligibility.png)<br/>
 
